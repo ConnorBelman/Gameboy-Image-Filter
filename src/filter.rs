@@ -26,7 +26,6 @@ fn pattern_uneven(x: u32, y: u32, color1: [u8; 3], color2: [u8; 3]) -> [u8; 3] {
 		else {
 			color2
 		}
-	
 	}
 	else if x % 4 == 1 || x % 4 == 3 {
 		if y % 2 == 0 {
